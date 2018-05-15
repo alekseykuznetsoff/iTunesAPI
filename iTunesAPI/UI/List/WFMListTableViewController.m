@@ -15,7 +15,8 @@
 
 #import "NSDictionary+Wrapper.h"
 
-#import "WFMDetailViewController.h"
+#import "iTunesAPI-Swift.h"
+#import "NSDictionary+Track.h"
 
 @interface WFMListTableViewController ()
 
@@ -90,7 +91,7 @@
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self performSegueWithIdentifier:NSStringFromClass([WFMDetailViewController class]) sender:nil];
+    [self performSegueWithIdentifier:NSStringFromClass([WFMTrackViewController class]) sender:nil];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
@@ -130,10 +131,13 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 - (void)prepareForSegue:(UIStoryboardSegue *)segue
                  sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:NSStringFromClass([WFMDetailViewController class]) ]) {
-        WFMDetailViewController *vc = segue.destinationViewController;
+    if ([segue.identifier isEqualToString:NSStringFromClass([WFMTrackViewController class]) ]) {
+        WFMTrackViewController *viewController = segue.destinationViewController;
         NSUInteger index = [[self.tableView indexPathForSelectedRow] row];
-        [vc setModel:self.dataSource[index]];
+        NSDictionary<WFMTrackProtocol> *track = self.dataSource[index];
+        viewController.artistName = track.artistName;
+        viewController.collectionCensoredName = track.collectionCensoredName;
+        viewController.trackCensoredName = track.trackCensoredName;
     }
 }
 

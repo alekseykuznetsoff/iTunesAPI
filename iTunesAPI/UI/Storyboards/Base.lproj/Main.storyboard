@@ -84,17 +84,17 @@
                     </navigationItem>
                     <connections>
                         <outlet property="refreshButton" destination="zdF-8F-Hcj" id="it6-xA-kXP"/>
-                        <segue destination="hQx-mA-cA3" kind="show" identifier="WFMDetailViewController" id="aip-MS-Qf5"/>
+                        <segue destination="hQx-mA-cA3" kind="show" identifier="iTunesAPI.WFMTrackViewController" id="aip-MS-Qf5"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bDS-4P-4Ic" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1845" y="87.5"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Track View Controller-->
         <scene sceneID="Fpa-Pk-aHS">
             <objects>
-                <viewController id="hQx-mA-cA3" customClass="WFMDetailViewController" sceneMemberID="viewController">
+                <viewController id="hQx-mA-cA3" customClass="WFMTrackViewController" customModule="iTunesAPI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mlt-OK-M5o">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,8 +161,8 @@
                         <viewLayoutGuide key="safeArea" id="CPh-pw-YE7"/>
                     </view>
                     <connections>
-                        <outlet property="firstLabel" destination="88W-vt-DLs" id="007-Zx-hT0"/>
-                        <outlet property="secondLabel" destination="wTz-uY-cJb" id="uTJ-1z-b1a"/>
+                        <outlet property="firstLabel" destination="88W-vt-DLs" id="8G2-uZ-lne"/>
+                        <outlet property="secondLabel" destination="wTz-uY-cJb" id="si5-p1-3Y9"/>
                         <outlet property="thirdLabel" destination="t8i-hV-ISZ" id="XAn-q1-hqa"/>
                     </connections>
                 </viewController>
