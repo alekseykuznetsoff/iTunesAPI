@@ -6,28 +6,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
-        <scene sceneID="3b1-oO-PHf">
-            <objects>
-                <tableViewController id="FBR-Z6-u5C" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QmZ-oy-bvV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <connections>
-                            <outlet property="dataSource" destination="FBR-Z6-u5C" id="JGi-ZJ-2mz"/>
-                            <outlet property="delegate" destination="FBR-Z6-u5C" id="utL-rh-hE3"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="Yxm-uL-lHq"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eGP-mb-07f" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1845" y="87.5"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="YcR-jV-R7A">
             <objects>
@@ -39,12 +21,28 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="FBR-Z6-u5C" kind="relationship" relationship="rootViewController" id="FX2-t2-js1"/>
+                        <segue destination="MGK-gm-I7h" kind="relationship" relationship="rootViewController" id="rvo-B7-EaU"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lyt-8E-JBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1095" y="88"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ONW-hd-TSO">
+            <objects>
+                <viewController id="MGK-gm-I7h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RfX-5q-eeK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ixV-m3-v7u"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zYB-Xx-lqI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZC-ZO-JMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="88"/>
         </scene>
     </scenes>
 </document>

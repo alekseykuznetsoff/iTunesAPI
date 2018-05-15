@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8625315920AAB29A00AD44D2 /* WFMListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8625315820AAB29A00AD44D2 /* WFMListTableViewController.m */; };
 		8625315C20AAB44600AD44D2 /* WFMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8625315B20AAB44600AD44D2 /* WFMDataManager.m */; };
+		8625316020AAC53A00AD44D2 /* WFMArtistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8625315F20AAC53A00AD44D2 /* WFMArtistTableViewCell.m */; };
+		8625316320AAC54600AD44D2 /* WFMTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8625316220AAC54600AD44D2 /* WFMTrackTableViewCell.m */; };
 		86A96B8A20AAAC7700D08D7C /* iTunesAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */; };
 		86E540DC20AAADDD0004DB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540BF20AAADDD0004DB8D /* LaunchScreen.storyboard */; };
 		86E540DD20AAADDD0004DB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540C120AAADDD0004DB8D /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 		8625315A20AAB44600AD44D2 /* WFMDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMDataManager.h; sourceTree = "<group>"; };
 		8625315B20AAB44600AD44D2 /* WFMDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMDataManager.m; sourceTree = "<group>"; };
 		8625315D20AABFB000AD44D2 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		8625315E20AAC53A00AD44D2 /* WFMArtistTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMArtistTableViewCell.h; sourceTree = "<group>"; };
+		8625315F20AAC53A00AD44D2 /* WFMArtistTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMArtistTableViewCell.m; sourceTree = "<group>"; };
+		8625316120AAC54600AD44D2 /* WFMTrackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMTrackTableViewCell.h; sourceTree = "<group>"; };
+		8625316220AAC54600AD44D2 /* WFMTrackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMTrackTableViewCell.m; sourceTree = "<group>"; };
 		86A96B6D20AAAC7500D08D7C /* iTunesAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A96B8520AAAC7700D08D7C /* iTunesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAPITests.m; sourceTree = "<group>"; };
@@ -170,6 +176,10 @@
 		86E540C520AAADDD0004DB8D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8625315E20AAC53A00AD44D2 /* WFMArtistTableViewCell.h */,
+				8625315F20AAC53A00AD44D2 /* WFMArtistTableViewCell.m */,
+				8625316120AAC54600AD44D2 /* WFMTrackTableViewCell.h */,
+				8625316220AAC54600AD44D2 /* WFMTrackTableViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -405,8 +415,10 @@
 				8625315920AAB29A00AD44D2 /* WFMListTableViewController.m in Sources */,
 				86E540E220AAADDD0004DB8D /* iTunesAPI.xcdatamodeld in Sources */,
 				86E540E020AAADDD0004DB8D /* WFMAppDelegate.m in Sources */,
+				8625316320AAC54600AD44D2 /* WFMTrackTableViewCell.m in Sources */,
 				86E540DF20AAADDD0004DB8D /* main.m in Sources */,
 				8625315C20AAB44600AD44D2 /* WFMDataManager.m in Sources */,
+				8625316020AAC53A00AD44D2 /* WFMArtistTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
