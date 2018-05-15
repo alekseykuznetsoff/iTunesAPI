@@ -6,13 +6,13 @@
 //  Copyright © 2018 Kuznetsov Aleksey. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "WFMAppDelegate.h"
 
-@interface AppDelegate ()
+@interface WFMAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation WFMAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

@@ -1,0 +1,15 @@
+//
+//  WFMPrefixHeader.pch
+//  iTunesAPI
+//
+//  Created by Kuznetsov Aleksey on 15.05.2018.
+//  Copyright © 2018 Kuznetsov Aleksey. All rights reserved.
+//
+
+#ifndef WFMPrefixHeader_pch
+#define WFMPrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif

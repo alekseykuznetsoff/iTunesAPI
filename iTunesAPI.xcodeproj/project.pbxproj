@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86A96B7220AAAC7500D08D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B7120AAAC7500D08D7C /* AppDelegate.m */; };
-		86A96B7520AAAC7500D08D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B7420AAAC7500D08D7C /* ViewController.m */; };
-		86A96B7820AAAC7500D08D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A96B7620AAAC7500D08D7C /* Main.storyboard */; };
-		86A96B7A20AAAC7600D08D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A96B7920AAAC7600D08D7C /* Assets.xcassets */; };
-		86A96B7D20AAAC7600D08D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A96B7B20AAAC7600D08D7C /* LaunchScreen.storyboard */; };
-		86A96B8020AAAC7600D08D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B7F20AAAC7600D08D7C /* main.m */; };
 		86A96B8A20AAAC7700D08D7C /* iTunesAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */; };
+		86E540DC20AAADDD0004DB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540BF20AAADDD0004DB8D /* LaunchScreen.storyboard */; };
+		86E540DD20AAADDD0004DB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540C120AAADDD0004DB8D /* Main.storyboard */; };
+		86E540DE20AAADDD0004DB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E540CE20AAADDD0004DB8D /* Assets.xcassets */; };
+		86E540DF20AAADDD0004DB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E540CF20AAADDD0004DB8D /* main.m */; };
+		86E540E020AAADDD0004DB8D /* WFMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E540D020AAADDD0004DB8D /* WFMAppDelegate.m */; };
+		86E540E220AAADDD0004DB8D /* iTunesAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86E540DA20AAADDD0004DB8D /* iTunesAPI.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +28,20 @@
 
 /* Begin PBXFileReference section */
 		86A96B6D20AAAC7500D08D7C /* iTunesAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A96B7020AAAC7500D08D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		86A96B7120AAAC7500D08D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86A96B7320AAAC7500D08D7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86A96B7420AAAC7500D08D7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		86A96B7720AAAC7500D08D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		86A96B7920AAAC7600D08D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		86A96B7C20AAAC7600D08D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86A96B7E20AAAC7600D08D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86A96B7F20AAAC7600D08D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86A96B8520AAAC7700D08D7C /* iTunesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAPITests.m; sourceTree = "<group>"; };
 		86A96B8B20AAAC7700D08D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E540C020AAADDD0004DB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86E540C220AAADDD0004DB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86E540CC20AAADDD0004DB8D /* WFMPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMPrefixHeader.pch; sourceTree = "<group>"; };
+		86E540CD20AAADDD0004DB8D /* WFMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMAppDelegate.h; sourceTree = "<group>"; };
+		86E540CE20AAADDD0004DB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86E540CF20AAADDD0004DB8D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86E540D020AAADDD0004DB8D /* WFMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFMAppDelegate.m; sourceTree = "<group>"; };
+		86E540D120AAADDD0004DB8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E540D720AAADDD0004DB8D /* WFMTrackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMTrackProtocol.h; sourceTree = "<group>"; };
+		86E540D920AAADDD0004DB8D /* WFMArtistProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMArtistProtocol.h; sourceTree = "<group>"; };
+		86E540DB20AAADDD0004DB8D /* iTunesAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTunesAPI.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 		86A96B6420AAAC7500D08D7C = {
 			isa = PBXGroup;
 			children = (
-				86A96B6F20AAAC7500D08D7C /* iTunesAPI */,
+				86E540BC20AAADDD0004DB8D /* iTunesAPI */,
 				86A96B8820AAAC7700D08D7C /* iTunesAPITests */,
 				86A96B6E20AAAC7500D08D7C /* Products */,
 			);
@@ -78,22 +80,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86A96B6F20AAAC7500D08D7C /* iTunesAPI */ = {
-			isa = PBXGroup;
-			children = (
-				86A96B7020AAAC7500D08D7C /* AppDelegate.h */,
-				86A96B7120AAAC7500D08D7C /* AppDelegate.m */,
-				86A96B7320AAAC7500D08D7C /* ViewController.h */,
-				86A96B7420AAAC7500D08D7C /* ViewController.m */,
-				86A96B7620AAAC7500D08D7C /* Main.storyboard */,
-				86A96B7920AAAC7600D08D7C /* Assets.xcassets */,
-				86A96B7B20AAAC7600D08D7C /* LaunchScreen.storyboard */,
-				86A96B7E20AAAC7600D08D7C /* Info.plist */,
-				86A96B7F20AAAC7600D08D7C /* main.m */,
-			);
-			path = iTunesAPI;
-			sourceTree = "<group>";
-		};
 		86A96B8820AAAC7700D08D7C /* iTunesAPITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +87,160 @@
 				86A96B8B20AAAC7700D08D7C /* Info.plist */,
 			);
 			path = iTunesAPITests;
+			sourceTree = "<group>";
+		};
+		86E540BC20AAADDD0004DB8D /* iTunesAPI */ = {
+			isa = PBXGroup;
+			children = (
+				86E540BD20AAADDD0004DB8D /* UI */,
+				86E540C620AAADDD0004DB8D /* Utilities */,
+				86E540CB20AAADDD0004DB8D /* Supporting Files */,
+				86E540D220AAADDD0004DB8D /* Data */,
+			);
+			path = iTunesAPI;
+			sourceTree = "<group>";
+		};
+		86E540BD20AAADDD0004DB8D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				86E540BE20AAADDD0004DB8D /* Storyboards */,
+				86E540C320AAADDD0004DB8D /* Detail */,
+				86E540C420AAADDD0004DB8D /* List */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		86E540BE20AAADDD0004DB8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86E540BF20AAADDD0004DB8D /* LaunchScreen.storyboard */,
+				86E540C120AAADDD0004DB8D /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		86E540C320AAADDD0004DB8D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		86E540C420AAADDD0004DB8D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				86E540C520AAADDD0004DB8D /* Cells */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		86E540C520AAADDD0004DB8D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		86E540C620AAADDD0004DB8D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				86E540C720AAADDD0004DB8D /* Global */,
+				86E540C920AAADDD0004DB8D /* CurrentProject */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		86E540C720AAADDD0004DB8D /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				86E540C820AAADDD0004DB8D /* Categories */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		86E540C820AAADDD0004DB8D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		86E540C920AAADDD0004DB8D /* CurrentProject */ = {
+			isa = PBXGroup;
+			children = (
+				86E540CA20AAADDD0004DB8D /* Categories */,
+			);
+			path = CurrentProject;
+			sourceTree = "<group>";
+		};
+		86E540CA20AAADDD0004DB8D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		86E540CB20AAADDD0004DB8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E540CC20AAADDD0004DB8D /* WFMPrefixHeader.pch */,
+				86E540CD20AAADDD0004DB8D /* WFMAppDelegate.h */,
+				86E540CE20AAADDD0004DB8D /* Assets.xcassets */,
+				86E540CF20AAADDD0004DB8D /* main.m */,
+				86E540D020AAADDD0004DB8D /* WFMAppDelegate.m */,
+				86E540D120AAADDD0004DB8D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86E540D220AAADDD0004DB8D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				86E540D320AAADDD0004DB8D /* DataManager */,
+				86E540D420AAADDD0004DB8D /* Store */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		86E540D320AAADDD0004DB8D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		86E540D420AAADDD0004DB8D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				86E540D520AAADDD0004DB8D /* Models */,
+				86E540DA20AAADDD0004DB8D /* iTunesAPI.xcdatamodeld */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		86E540D520AAADDD0004DB8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86E540D620AAADDD0004DB8D /* Track */,
+				86E540D820AAADDD0004DB8D /* Artist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86E540D620AAADDD0004DB8D /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				86E540D720AAADDD0004DB8D /* WFMTrackProtocol.h */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		86E540D820AAADDD0004DB8D /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				86E540D920AAADDD0004DB8D /* WFMArtistProtocol.h */,
+			);
+			path = Artist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +287,7 @@
 		86A96B6520AAAC7500D08D7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WFM;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kuznetsov Aleksey";
 				TargetAttributes = {
@@ -183,9 +324,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A96B7D20AAAC7600D08D7C /* LaunchScreen.storyboard in Resources */,
-				86A96B7A20AAAC7600D08D7C /* Assets.xcassets in Resources */,
-				86A96B7820AAAC7500D08D7C /* Main.storyboard in Resources */,
+				86E540DC20AAADDD0004DB8D /* LaunchScreen.storyboard in Resources */,
+				86E540DE20AAADDD0004DB8D /* Assets.xcassets in Resources */,
+				86E540DD20AAADDD0004DB8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A96B7520AAAC7500D08D7C /* ViewController.m in Sources */,
-				86A96B8020AAAC7600D08D7C /* main.m in Sources */,
-				86A96B7220AAAC7500D08D7C /* AppDelegate.m in Sources */,
+				86E540E220AAADDD0004DB8D /* iTunesAPI.xcdatamodeld in Sources */,
+				86E540E020AAADDD0004DB8D /* WFMAppDelegate.m in Sources */,
+				86E540DF20AAADDD0004DB8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,20 +369,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		86A96B7620AAAC7500D08D7C /* Main.storyboard */ = {
+		86E540BF20AAADDD0004DB8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				86A96B7720AAAC7500D08D7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		86A96B7B20AAAC7600D08D7C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86A96B7C20AAAC7600D08D7C /* Base */,
+				86E540C020AAADDD0004DB8D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		86E540C120AAADDD0004DB8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E540C220AAADDD0004DB8D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +504,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU2U9Q7TFR;
-				INFOPLIST_FILE = iTunesAPI/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Supporting Files/WFMPrefixHeader.pch";
+				INFOPLIST_FILE = "iTunesAPI/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +524,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU2U9Q7TFR;
-				INFOPLIST_FILE = iTunesAPI/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Supporting Files/WFMPrefixHeader.pch";
+				INFOPLIST_FILE = "iTunesAPI/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +607,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86E540DA20AAADDD0004DB8D /* iTunesAPI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86E540DB20AAADDD0004DB8D /* iTunesAPI.xcdatamodel */,
+			);
+			currentVersion = 86E540DB20AAADDD0004DB8D /* iTunesAPI.xcdatamodel */;
+			path = iTunesAPI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 86A96B6520AAAC7500D08D7C /* Project object */;
 }
