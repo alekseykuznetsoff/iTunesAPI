@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8625315920AAB29A00AD44D2 /* WFMListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8625315820AAB29A00AD44D2 /* WFMListTableViewController.m */; };
 		86A96B8A20AAAC7700D08D7C /* iTunesAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */; };
 		86E540DC20AAADDD0004DB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540BF20AAADDD0004DB8D /* LaunchScreen.storyboard */; };
 		86E540DD20AAADDD0004DB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540C120AAADDD0004DB8D /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		5864B815304A4FA2687510D4 /* Pods-iTunesAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesAPI/Pods-iTunesAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		8625315720AAB29A00AD44D2 /* WFMListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMListTableViewController.h; sourceTree = "<group>"; };
+		8625315820AAB29A00AD44D2 /* WFMListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMListTableViewController.m; sourceTree = "<group>"; };
 		86A96B6D20AAAC7500D08D7C /* iTunesAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A96B8520AAAC7700D08D7C /* iTunesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAPITests.m; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				86E540C520AAADDD0004DB8D /* Cells */,
+				8625315720AAB29A00AD44D2 /* WFMListTableViewController.h */,
+				8625315820AAB29A00AD44D2 /* WFMListTableViewController.m */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -207,12 +212,12 @@
 		86E540CB20AAADDD0004DB8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				86E540CC20AAADDD0004DB8D /* WFMPrefixHeader.pch */,
 				86E540CD20AAADDD0004DB8D /* WFMAppDelegate.h */,
+				86E540D020AAADDD0004DB8D /* WFMAppDelegate.m */,
 				86E540CE20AAADDD0004DB8D /* Assets.xcassets */,
 				86E540CF20AAADDD0004DB8D /* main.m */,
-				86E540D020AAADDD0004DB8D /* WFMAppDelegate.m */,
 				86E540D120AAADDD0004DB8D /* Info.plist */,
+				86E540CC20AAADDD0004DB8D /* WFMPrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8625315920AAB29A00AD44D2 /* WFMListTableViewController.m in Sources */,
 				86E540E220AAADDD0004DB8D /* iTunesAPI.xcdatamodeld in Sources */,
 				86E540E020AAADDD0004DB8D /* WFMAppDelegate.m in Sources */,
 				86E540DF20AAADDD0004DB8D /* main.m in Sources */,
