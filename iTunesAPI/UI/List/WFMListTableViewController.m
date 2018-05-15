@@ -7,8 +7,13 @@
 //
 
 #import "WFMListTableViewController.h"
+#import "WFMDataManager.h"
 
 @interface WFMListTableViewController ()
+
+@property (nonatomic, strong) WFMDataManager *dataManager;
+
+@property (nonatomic, strong) NSArray *dataSource;
 
 @end
 
@@ -19,7 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self loadData];
+    self.dataManager = [WFMDataManager sharedInstance];
+    
+    [self loadSavedData];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -30,14 +37,21 @@
 
 #pragma mark - Load data
 
-- (void)loadData
+- (void)loadSavedData
 {
-
+    self.dataSource = [self.dataManager listDataArray];
 }
 
-- (void)reloadController
+- (void)reloadController 
 {
-
+    Weakify(self);
+    [self.dataManager listDataArrayWithBlock:^(NSArray *array, NSError *error) {
+        Strongify(self);
+        if (array) {
+            self.dataSource = array;
+            [self.tableView reloadData];
+        }
+    }];
 }
 
 #pragma mark - Table view data source
