@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86A96B7220AAAC7500D08D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B7120AAAC7500D08D7C /* AppDelegate.m */; };
+		86A96B7520AAAC7500D08D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B7420AAAC7500D08D7C /* ViewController.m */; };
+		86A96B7820AAAC7500D08D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A96B7620AAAC7500D08D7C /* Main.storyboard */; };
+		86A96B7A20AAAC7600D08D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A96B7920AAAC7600D08D7C /* Assets.xcassets */; };
+		86A96B7D20AAAC7600D08D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A96B7B20AAAC7600D08D7C /* LaunchScreen.storyboard */; };
+		86A96B8020AAAC7600D08D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B7F20AAAC7600D08D7C /* main.m */; };
+		86A96B8A20AAAC7700D08D7C /* iTunesAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86A96B8620AAAC7700D08D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A96B6520AAAC7500D08D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A96B6C20AAAC7500D08D7C;
+			remoteInfo = iTunesAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86A96B6D20AAAC7500D08D7C /* iTunesAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A96B7020AAAC7500D08D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86A96B7120AAAC7500D08D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86A96B7320AAAC7500D08D7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86A96B7420AAAC7500D08D7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86A96B7720AAAC7500D08D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86A96B7920AAAC7600D08D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86A96B7C20AAAC7600D08D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86A96B7E20AAAC7600D08D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A96B7F20AAAC7600D08D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86A96B8520AAAC7700D08D7C /* iTunesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAPITests.m; sourceTree = "<group>"; };
+		86A96B8B20AAAC7700D08D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A96B6A20AAAC7500D08D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A96B8220AAAC7700D08D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86A96B6420AAAC7500D08D7C = {
+			isa = PBXGroup;
+			children = (
+				86A96B6F20AAAC7500D08D7C /* iTunesAPI */,
+				86A96B8820AAAC7700D08D7C /* iTunesAPITests */,
+				86A96B6E20AAAC7500D08D7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86A96B6E20AAAC7500D08D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A96B6D20AAAC7500D08D7C /* iTunesAPI.app */,
+				86A96B8520AAAC7700D08D7C /* iTunesAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A96B6F20AAAC7500D08D7C /* iTunesAPI */ = {
+			isa = PBXGroup;
+			children = (
+				86A96B7020AAAC7500D08D7C /* AppDelegate.h */,
+				86A96B7120AAAC7500D08D7C /* AppDelegate.m */,
+				86A96B7320AAAC7500D08D7C /* ViewController.h */,
+				86A96B7420AAAC7500D08D7C /* ViewController.m */,
+				86A96B7620AAAC7500D08D7C /* Main.storyboard */,
+				86A96B7920AAAC7600D08D7C /* Assets.xcassets */,
+				86A96B7B20AAAC7600D08D7C /* LaunchScreen.storyboard */,
+				86A96B7E20AAAC7600D08D7C /* Info.plist */,
+				86A96B7F20AAAC7600D08D7C /* main.m */,
+			);
+			path = iTunesAPI;
+			sourceTree = "<group>";
+		};
+		86A96B8820AAAC7700D08D7C /* iTunesAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				86A96B8920AAAC7700D08D7C /* iTunesAPITests.m */,
+				86A96B8B20AAAC7700D08D7C /* Info.plist */,
+			);
+			path = iTunesAPITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A96B6C20AAAC7500D08D7C /* iTunesAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A96B8E20AAAC7700D08D7C /* Build configuration list for PBXNativeTarget "iTunesAPI" */;
+			buildPhases = (
+				86A96B6920AAAC7500D08D7C /* Sources */,
+				86A96B6A20AAAC7500D08D7C /* Frameworks */,
+				86A96B6B20AAAC7500D08D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesAPI;
+			productName = iTunesAPI;
+			productReference = 86A96B6D20AAAC7500D08D7C /* iTunesAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86A96B8420AAAC7700D08D7C /* iTunesAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A96B9120AAAC7700D08D7C /* Build configuration list for PBXNativeTarget "iTunesAPITests" */;
+			buildPhases = (
+				86A96B8120AAAC7700D08D7C /* Sources */,
+				86A96B8220AAAC7700D08D7C /* Frameworks */,
+				86A96B8320AAAC7700D08D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A96B8720AAAC7700D08D7C /* PBXTargetDependency */,
+			);
+			name = iTunesAPITests;
+			productName = iTunesAPITests;
+			productReference = 86A96B8520AAAC7700D08D7C /* iTunesAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A96B6520AAAC7500D08D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Kuznetsov Aleksey";
+				TargetAttributes = {
+					86A96B6C20AAAC7500D08D7C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					86A96B8420AAAC7700D08D7C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 86A96B6C20AAAC7500D08D7C;
+					};
+				};
+			};
+			buildConfigurationList = 86A96B6820AAAC7500D08D7C /* Build configuration list for PBXProject "iTunesAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A96B6420AAAC7500D08D7C;
+			productRefGroup = 86A96B6E20AAAC7500D08D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A96B6C20AAAC7500D08D7C /* iTunesAPI */,
+				86A96B8420AAAC7700D08D7C /* iTunesAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A96B6B20AAAC7500D08D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A96B7D20AAAC7600D08D7C /* LaunchScreen.storyboard in Resources */,
+				86A96B7A20AAAC7600D08D7C /* Assets.xcassets in Resources */,
+				86A96B7820AAAC7500D08D7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A96B8320AAAC7700D08D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A96B6920AAAC7500D08D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A96B7520AAAC7500D08D7C /* ViewController.m in Sources */,
+				86A96B8020AAAC7600D08D7C /* main.m in Sources */,
+				86A96B7220AAAC7500D08D7C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A96B8120AAAC7700D08D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A96B8A20AAAC7700D08D7C /* iTunesAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86A96B8720AAAC7700D08D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A96B6C20AAAC7500D08D7C /* iTunesAPI */;
+			targetProxy = 86A96B8620AAAC7700D08D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86A96B7620AAAC7500D08D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A96B7720AAAC7500D08D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86A96B7B20AAAC7600D08D7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A96B7C20AAAC7600D08D7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A96B8C20AAAC7700D08D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86A96B8D20AAAC7700D08D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A96B8F20AAAC7700D08D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU2U9Q7TFR;
+				INFOPLIST_FILE = iTunesAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KAD.iTunesAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A96B9020AAAC7700D08D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU2U9Q7TFR;
+				INFOPLIST_FILE = iTunesAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KAD.iTunesAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86A96B9220AAAC7700D08D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU2U9Q7TFR;
+				INFOPLIST_FILE = iTunesAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KAD.iTunesAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesAPI.app/iTunesAPI";
+			};
+			name = Debug;
+		};
+		86A96B9320AAAC7700D08D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU2U9Q7TFR;
+				INFOPLIST_FILE = iTunesAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KAD.iTunesAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesAPI.app/iTunesAPI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A96B6820AAAC7500D08D7C /* Build configuration list for PBXProject "iTunesAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A96B8C20AAAC7700D08D7C /* Debug */,
+				86A96B8D20AAAC7700D08D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A96B8E20AAAC7700D08D7C /* Build configuration list for PBXNativeTarget "iTunesAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A96B8F20AAAC7700D08D7C /* Debug */,
+				86A96B9020AAAC7700D08D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A96B9120AAAC7700D08D7C /* Build configuration list for PBXNativeTarget "iTunesAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A96B9220AAAC7700D08D7C /* Debug */,
+				86A96B9320AAAC7700D08D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86A96B6520AAAC7500D08D7C /* Project object */;
+}
