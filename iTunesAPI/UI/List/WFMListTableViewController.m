@@ -23,6 +23,11 @@
 
 @property (nonatomic, strong) NSArray *dataSource;
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *refreshButton;
+
+- (IBAction)refreshButtonAction:(UIBarButtonItem *)sender;
+- (IBAction)trashButtonAction:(UIBarButtonItem *)sender;
+
 @end
 
 @implementation WFMListTableViewController
@@ -44,6 +49,20 @@
     [self reloadController];
 }
 
+#pragma mark - IBActions
+
+- (IBAction)refreshButtonAction:(UIBarButtonItem *)sender
+{
+    [self reloadController];
+}
+
+- (IBAction)trashButtonAction:(UIBarButtonItem *)sender
+{
+    [self.dataManager deleteAllSavedData];
+    [self loadSavedData];
+    [self.tableView reloadData];
+}
+
 #pragma mark - Load data
 
 - (void)loadSavedData
@@ -53,6 +72,7 @@
 
 - (void)reloadController 
 {
+    self.refreshButton.enabled = NO;
     Weakify(self);
     [self.dataManager listDataArrayWithBlock:^(NSArray *array, NSError *error) {
         Strongify(self);
@@ -60,6 +80,7 @@
             self.dataSource = array;
             [self.tableView reloadData];
         }
+        self.refreshButton.enabled = YES;
     }];
 }
 

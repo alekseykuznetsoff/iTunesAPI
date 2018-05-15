@@ -89,6 +89,10 @@ static NSString *const kWFMStoreListDataArrayKey = @"kWFMStoreListDataArrayKey";
     }
 }
 
+- (void)deleteAllSavedData
+{
+    [self saveToStoreObject:@[] forKey:kWFMStoreListDataArrayKey];
+}
 
 #pragma mark - Networking
 

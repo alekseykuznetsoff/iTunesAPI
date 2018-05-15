@@ -70,8 +70,20 @@
                             <outlet property="delegate" destination="pUY-GO-h8N" id="ehE-ur-jAr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="C7U-Fr-WGi"/>
+                    <navigationItem key="navigationItem" id="C7U-Fr-WGi">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="Cyl-Kn-Q1z">
+                            <connections>
+                                <action selector="trashButtonAction:" destination="pUY-GO-h8N" id="vjZ-KN-Uwt"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="zdF-8F-Hcj">
+                            <connections>
+                                <action selector="refreshButtonAction:" destination="pUY-GO-h8N" id="PIn-3l-eUl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="refreshButton" destination="zdF-8F-Hcj" id="it6-xA-kXP"/>
                         <segue destination="hQx-mA-cA3" kind="show" identifier="WFMDetailViewController" id="aip-MS-Qf5"/>
                     </connections>
                 </tableViewController>

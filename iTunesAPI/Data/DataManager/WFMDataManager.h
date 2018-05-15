@@ -16,4 +16,6 @@
 - (NSArray *)listDataArray;
 - (void)listDataArrayWithBlock:(void (^)(NSArray *array, NSError *error))block;
 
+- (void)deleteAllSavedData;
+
 @end
