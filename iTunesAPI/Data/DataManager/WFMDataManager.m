@@ -7,15 +7,14 @@
 //
 
 #import "WFMDataManager.h"
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 static NSString *const kWFMAPIBaseURL = @"https://itunes.apple.com/";
 static NSString *const kWFMMainListURL = @"lookup?amgArtistId=468749,5723&entity=song&limit=50&sort=recent";
 
 static NSString *const kWFMAPIResultsKey = @"results";
 
-static NSString *const kWFMStoreListDataArrayKey = @"kWFMStoreListDataArrayKey";
-
+NSString *const kWFMStoreListDataArrayKey = @"kWFMStoreListDataArrayKey";
 
 @interface WFMDataManager ()
 

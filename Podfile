@@ -8,3 +8,8 @@ target 'iTunesAPI' do
 
 end
 
+target 'iTunesAPITests' do
+
+    pod 'AFNetworking'
+
+end

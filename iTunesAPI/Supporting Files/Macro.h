@@ -13,7 +13,10 @@
 __weak __typeof__(var) macro_concat(var, _weak_) = var
 
 #define Strongify(var) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
 __strong __typeof__(var) var = macro_concat(var, _weak_) \
+_Pragma("clang diagnostic pop")
 
 #define macro_concat(A, B) A##B
 

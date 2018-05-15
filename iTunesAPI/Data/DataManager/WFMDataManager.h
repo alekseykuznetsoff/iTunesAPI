@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString *const kWFMStoreListDataArrayKey;
+
 @interface WFMDataManager : NSObject
 
 + (instancetype)sharedInstance;
