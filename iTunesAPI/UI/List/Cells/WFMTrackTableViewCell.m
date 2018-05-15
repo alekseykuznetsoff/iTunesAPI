@@ -7,24 +7,14 @@
 //
 
 #import "WFMTrackTableViewCell.h"
-
-@interface WFMTrackTableViewCell ()
-
-@property (nonatomic, strong) NSDictionary *model;
-
-@end
+#import "NSDictionary+Track.h"
 
 @implementation WFMTrackTableViewCell
 
-- (void)setModel:(id)model
+- (void)decorateCellWithModel:(id)model
 {
-    self.model = model;
-    [self configureCell];
-}
-
-- (void)configureCell
-{
-    
-}
+    NSDictionary<WFMTrackProtocol> *track = (NSDictionary<WFMTrackProtocol> *)model;
+    self.textLabel.text = track.trackCensoredName;
+    self.detailTextLabel.text = track.artistName;}
 
 @end

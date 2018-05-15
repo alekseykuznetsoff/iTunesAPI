@@ -13,4 +13,6 @@
 - (NSString *)artistName;
 - (NSString *)primaryGenreName;
 
+- (NSString *)genreWithArtistName;
+
 @end

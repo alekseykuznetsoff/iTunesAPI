@@ -7,24 +7,14 @@
 //
 
 #import "WFMArtistTableViewCell.h"
-
-@interface WFMArtistTableViewCell ()
-
-@property (nonatomic, strong) NSDictionary *model;
-
-@end
+#import "NSDictionary+Artist.h"
 
 @implementation WFMArtistTableViewCell
 
-- (void)setModel:(id)model
+- (void)decorateCellWithModel:(id)model
 {
-    self.model = model;
-    [self configureCell];
-}
-
-- (void)configureCell
-{
-
+    NSDictionary<WFMArtistProtocol> *artist = (NSDictionary<WFMArtistProtocol> *)model;
+    self.textLabel.text = artist.genreWithArtistName;
 }
 
 @end

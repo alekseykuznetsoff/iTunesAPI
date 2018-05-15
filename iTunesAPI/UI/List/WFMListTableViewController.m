@@ -8,8 +8,12 @@
 
 #import "WFMListTableViewController.h"
 #import "WFMDataManager.h"
+
+#import "WFMListTableViewCellProtocol.h"
 #import "WFMArtistTableViewCell.h"
 #import "WFMTrackTableViewCell.h"
+
+#import "NSDictionary+Wrapper.h"
 
 @interface WFMListTableViewController ()
 
@@ -60,32 +64,34 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 0;
-//    return 1;
+//    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
-//    return self.dataSource.count;
+//    return 0;
+    return self.dataSource.count;
 }
 
 
-//- (UITableViewCell *)tableView:(UITableView *)tableView
-//         cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    NSString *cellIdentifier;
-//    if () {
-//        cellIdentifier = NSStringFromClass([WFMTrackTableViewCell class]);
-//    } else {
-//        cellIdentifier = NSStringFromClass([WFMArtistTableViewCell class]);
-//    }
-//
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-//
-//    return cell;
-//}
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    NSDictionary<WFMWrapperProtocol> *model = self.dataSource[indexPath.row];
+    NSString *cellIdentifier;
+    if (model.wrapperType == WFMWrapperTypeTrack) {
+        cellIdentifier = NSStringFromClass([WFMTrackTableViewCell class]);
+    } else {
+        cellIdentifier = NSStringFromClass([WFMArtistTableViewCell class]);
+    }
+
+    UITableViewCell<WFMListTableViewCellProtocol> *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    [cell decorateCellWithModel:model];
+    return cell;
+}
 
 
 

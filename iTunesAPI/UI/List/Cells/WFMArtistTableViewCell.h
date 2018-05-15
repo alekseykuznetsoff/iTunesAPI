@@ -6,8 +6,8 @@
 //  Copyright © 2018 Kuznetsov Aleksey. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "WFMListTableViewCellProtocol.h"
 
-@interface WFMArtistTableViewCell : UITableViewCell
+@interface WFMArtistTableViewCell : UITableViewCell <WFMListTableViewCellProtocol>
 
 @end
