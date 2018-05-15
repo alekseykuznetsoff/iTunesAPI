@@ -15,6 +15,8 @@
 
 #import "NSDictionary+Wrapper.h"
 
+#import "WFMDetailViewController.h"
+
 @interface WFMListTableViewController ()
 
 @property (nonatomic, strong) WFMDataManager *dataManager;
@@ -27,7 +29,8 @@
 
 #pragma mark - Life Cycle
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.dataManager = [WFMDataManager sharedInstance];
@@ -60,18 +63,26 @@
     }];
 }
 
+#pragma mark - UITableViewDelegate
+
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:NSStringFromClass([WFMDetailViewController class]) sender:nil];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-//    return 0;
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
-//    return 0;
     return self.dataSource.count;
 }
 
@@ -93,16 +104,16 @@
     return cell;
 }
 
-
-
-/*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)prepareForSegue:(UIStoryboardSegue *)segue
+                 sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:NSStringFromClass([WFMDetailViewController class]) ]) {
+        WFMDetailViewController *vc = segue.destinationViewController;
+        NSUInteger index = [[self.tableView indexPathForSelectedRow] row];
+        [vc setModel:self.dataSource[index]];
+    }
 }
-*/
 
 @end

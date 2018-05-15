@@ -15,6 +15,7 @@
 		86B4A16A20AAC8E8000C19AB /* NSDictionary+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B4A16920AAC8E8000C19AB /* NSDictionary+Track.m */; };
 		86B4A16E20AAC97D000C19AB /* NSDictionary+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B4A16D20AAC97D000C19AB /* NSDictionary+Wrapper.m */; };
 		86B4A17220AAC9A9000C19AB /* NSDictionary+Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B4A17120AAC9A9000C19AB /* NSDictionary+Artist.m */; };
+		86B4A17720AAD641000C19AB /* WFMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B4A17620AAD641000C19AB /* WFMDetailViewController.m */; };
 		86E540DC20AAADDD0004DB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540BF20AAADDD0004DB8D /* LaunchScreen.storyboard */; };
 		86E540DD20AAADDD0004DB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E540C120AAADDD0004DB8D /* Main.storyboard */; };
 		86E540DE20AAADDD0004DB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E540CE20AAADDD0004DB8D /* Assets.xcassets */; };
@@ -57,6 +58,8 @@
 		86B4A17020AAC9A9000C19AB /* NSDictionary+Artist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Artist.h"; sourceTree = "<group>"; };
 		86B4A17120AAC9A9000C19AB /* NSDictionary+Artist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Artist.m"; sourceTree = "<group>"; };
 		86B4A17420AACF1D000C19AB /* WFMListTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMListTableViewCellProtocol.h; sourceTree = "<group>"; };
+		86B4A17520AAD641000C19AB /* WFMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMDetailViewController.h; sourceTree = "<group>"; };
+		86B4A17620AAD641000C19AB /* WFMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMDetailViewController.m; sourceTree = "<group>"; };
 		86E540C020AAADDD0004DB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86E540C220AAADDD0004DB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86E540CC20AAADDD0004DB8D /* WFMPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMPrefixHeader.pch; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 		86E540C320AAADDD0004DB8D /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				86B4A17520AAD641000C19AB /* WFMDetailViewController.h */,
+				86B4A17620AAD641000C19AB /* WFMDetailViewController.m */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -447,6 +452,7 @@
 				86E540DF20AAADDD0004DB8D /* main.m in Sources */,
 				8625315C20AAB44600AD44D2 /* WFMDataManager.m in Sources */,
 				86B4A17220AAC9A9000C19AB /* NSDictionary+Artist.m in Sources */,
+				86B4A17720AAD641000C19AB /* WFMDetailViewController.m in Sources */,
 				86B4A16A20AAC8E8000C19AB /* NSDictionary+Track.m in Sources */,
 				8625316020AAC53A00AD44D2 /* WFMArtistTableViewCell.m in Sources */,
 			);

@@ -12,5 +12,6 @@
 
 - (NSString *)artistName;
 - (NSString *)trackCensoredName;
+- (NSString *)collectionCensoredName;
 
 @end
