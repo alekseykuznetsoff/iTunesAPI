@@ -5,6 +5,7 @@ inhibit_all_warnings!
 target 'iTunesAPI' do
 
     pod 'AFNetworking'
+    pod 'SDWebImage'
 
 end
 

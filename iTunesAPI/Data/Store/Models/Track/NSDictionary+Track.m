@@ -11,6 +11,7 @@
 static NSString *const kWFMAPITrackArtistNameKey = @"artistName";
 static NSString *const kWFMAPITrackCensoredNameKey = @"trackCensoredName";
 static NSString *const kWFMAPITrackCollectionCensoredNameKey = @"collectionCensoredName";
+static NSString *const kWFMAPITrackArtworkUrl60Key = @"artworkUrl60";
 
 @implementation NSDictionary (Track)
 
@@ -29,5 +30,11 @@ static NSString *const kWFMAPITrackCollectionCensoredNameKey = @"collectionCenso
 {
     return self[kWFMAPITrackCollectionCensoredNameKey];
 }
+
+- (NSString *)artworkUrl60
+{
+    return self[kWFMAPITrackArtworkUrl60Key];
+}
+
 
 @end

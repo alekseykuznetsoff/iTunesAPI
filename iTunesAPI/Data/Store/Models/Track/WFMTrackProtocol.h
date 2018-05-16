@@ -14,4 +14,6 @@
 - (NSString *)trackCensoredName;
 - (NSString *)collectionCensoredName;
 
+- (NSString *)artworkUrl60;
+
 @end
