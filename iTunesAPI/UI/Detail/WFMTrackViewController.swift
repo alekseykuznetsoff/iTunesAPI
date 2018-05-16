@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import SDWebImage
 
 class WFMTrackViewController: UIViewController {
     
     var artistName: String = ""
     var collectionCensoredName: String = ""
     var trackCensoredName: String = ""
-    
+    var artworkUrl: String = ""
+
+    @IBOutlet weak var artworkImageView: UIImageView!
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var secondLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
@@ -24,6 +27,9 @@ class WFMTrackViewController: UIViewController {
         firstLabel.text = artistName
         secondLabel.text = collectionCensoredName
         thirdLabel.text = trackCensoredName
+        if artworkUrl.count > 0 {
+            artworkImageView.sd_setImage(with: URL(string: artworkUrl))
+        }
     }
     
 }

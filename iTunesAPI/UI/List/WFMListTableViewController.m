@@ -138,6 +138,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
         viewController.artistName = track.artistName;
         viewController.collectionCensoredName = track.collectionCensoredName;
         viewController.trackCensoredName = track.trackCensoredName;
+        viewController.artworkUrl = track.artworkUrl100.length ? track.artworkUrl100 : track.artworkUrl60;
     }
 }
 

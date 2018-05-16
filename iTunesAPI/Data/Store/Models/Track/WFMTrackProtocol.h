@@ -15,5 +15,6 @@
 - (NSString *)collectionCensoredName;
 
 - (NSString *)artworkUrl60;
+- (NSString *)artworkUrl100;
 
 @end

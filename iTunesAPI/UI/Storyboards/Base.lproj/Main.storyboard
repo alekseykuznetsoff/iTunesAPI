@@ -133,41 +133,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="first" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88W-vt-DLs">
-                                <rect key="frame" x="16" y="119.5" width="288" height="20.5"/>
+                                <rect key="frame" x="16" y="251.5" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLy-KN-Ai5">
-                                <rect key="frame" x="16" y="96" width="288" height="16"/>
+                                <rect key="frame" x="16" y="228" width="288" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="second" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTz-uY-cJb">
-                                <rect key="frame" x="16" y="195.5" width="288" height="20.5"/>
+                                <rect key="frame" x="16" y="327.5" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collection Name:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omv-iY-mC7">
-                                <rect key="frame" x="16" y="172" width="288" height="16"/>
+                                <rect key="frame" x="16" y="304" width="288" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Name:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHF-lK-TPK">
-                                <rect key="frame" x="16" y="248" width="288" height="16"/>
+                                <rect key="frame" x="16" y="380" width="288" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="third" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8i-hV-ISZ">
-                                <rect key="frame" x="16" y="271.5" width="288" height="20.5"/>
+                                <rect key="frame" x="16" y="403.5" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vrD-Wr-SsX">
+                                <rect key="frame" x="110" y="96" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="7E1-46-1GO"/>
+                                    <constraint firstAttribute="width" constant="100" id="F21-n9-SG7"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -176,6 +183,7 @@
                             <constraint firstItem="CPh-pw-YE7" firstAttribute="trailing" secondItem="xLy-KN-Ai5" secondAttribute="trailing" constant="16" id="3RI-c4-rKE"/>
                             <constraint firstItem="CPh-pw-YE7" firstAttribute="trailing" secondItem="wTz-uY-cJb" secondAttribute="trailing" constant="16" id="9dX-Bg-IzI"/>
                             <constraint firstItem="Omv-iY-mC7" firstAttribute="leading" secondItem="CPh-pw-YE7" secondAttribute="leading" constant="16" id="FeF-Kr-ja2"/>
+                            <constraint firstItem="vrD-Wr-SsX" firstAttribute="centerX" secondItem="Mlt-OK-M5o" secondAttribute="centerX" id="GTB-QX-N3c"/>
                             <constraint firstItem="CPh-pw-YE7" firstAttribute="trailing" secondItem="QHF-lK-TPK" secondAttribute="trailing" constant="16" id="NsN-vi-x5q"/>
                             <constraint firstItem="t8i-hV-ISZ" firstAttribute="leading" secondItem="CPh-pw-YE7" secondAttribute="leading" constant="16" id="Uch-2T-hHx"/>
                             <constraint firstItem="QHF-lK-TPK" firstAttribute="top" secondItem="wTz-uY-cJb" secondAttribute="bottom" constant="32" id="V5d-7c-Kp2"/>
@@ -186,14 +194,16 @@
                             <constraint firstItem="wTz-uY-cJb" firstAttribute="top" secondItem="Omv-iY-mC7" secondAttribute="bottom" constant="8" id="gwB-aS-6L5"/>
                             <constraint firstItem="88W-vt-DLs" firstAttribute="leading" secondItem="CPh-pw-YE7" secondAttribute="leading" constant="16" id="hZ5-L4-d0a"/>
                             <constraint firstItem="CPh-pw-YE7" firstAttribute="trailing" secondItem="t8i-hV-ISZ" secondAttribute="trailing" constant="16" id="iXS-Yb-cxI"/>
+                            <constraint firstItem="xLy-KN-Ai5" firstAttribute="top" secondItem="vrD-Wr-SsX" secondAttribute="bottom" constant="32" id="jej-tK-sRW"/>
+                            <constraint firstItem="vrD-Wr-SsX" firstAttribute="top" secondItem="CPh-pw-YE7" secondAttribute="top" constant="32" id="k7T-WZ-iGo"/>
                             <constraint firstItem="t8i-hV-ISZ" firstAttribute="top" secondItem="QHF-lK-TPK" secondAttribute="bottom" constant="8" id="rpC-KY-j2w"/>
-                            <constraint firstItem="xLy-KN-Ai5" firstAttribute="top" secondItem="CPh-pw-YE7" secondAttribute="top" constant="32" id="rrw-As-sIJ"/>
                             <constraint firstItem="CPh-pw-YE7" firstAttribute="trailing" secondItem="Omv-iY-mC7" secondAttribute="trailing" constant="16" id="uTC-kW-KiN"/>
                             <constraint firstItem="CPh-pw-YE7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="t8i-hV-ISZ" secondAttribute="bottom" constant="32" id="vIv-ks-KBs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CPh-pw-YE7"/>
                     </view>
                     <connections>
+                        <outlet property="artworkImageView" destination="vrD-Wr-SsX" id="WON-R8-1fV"/>
                         <outlet property="firstLabel" destination="88W-vt-DLs" id="8G2-uZ-lne"/>
                         <outlet property="secondLabel" destination="wTz-uY-cJb" id="si5-p1-3Y9"/>
                         <outlet property="thirdLabel" destination="t8i-hV-ISZ" id="XAn-q1-hqa"/>
@@ -201,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCE-HL-enM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2603" y="88"/>
+            <point key="canvasLocation" x="2602.5" y="87.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7k3-ze-jm6">
