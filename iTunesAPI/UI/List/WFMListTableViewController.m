@@ -18,6 +18,8 @@
 #import "iTunesAPI-Swift.h"
 #import "NSDictionary+Track.h"
 
+#import "MBProgressHUD+Extension.h"
+
 @interface WFMListTableViewController ()
 
 @property (nonatomic, strong) WFMDataManager *dataManager;
@@ -82,6 +84,10 @@
             [self.tableView reloadData];
         }
         self.refreshButton.enabled = YES;
+        
+        if (error) {
+            [MBProgressHUD showAutoHideInView:self.view withText:NSLocalizedString(@"Something wrong", nil)];
+        }
     }];
 }
 
@@ -107,7 +113,6 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return self.dataSource.count;
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
